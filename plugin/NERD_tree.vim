@@ -69,6 +69,7 @@ let g:NERDTreeCascadeSingleChildDir     = get(g:, 'NERDTreeCascadeSingleChildDir
 
 let g:NERDTreeSortOrder    = get(g:, 'NERDTreeSortOrder', ['\/$', '*', '\.swp$', '\.bak$', '\~$'])
 let g:NERDTreeOldSortOrder = []
+let g:NERDTreeReverseSort  = get(g:, 'NERDTreeReverseSort',  0)
 
 let g:NERDTreeGlyphReadOnly = get(g:, 'NERDTreeGlyphReadOnly', 'RO')
 
